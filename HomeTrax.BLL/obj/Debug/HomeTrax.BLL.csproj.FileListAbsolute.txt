@@ -1,0 +1,4 @@
+C:\Projects\HomeTrax\HomeTrax.BLL\bin\Debug\HomeTrax.BLL.dll
+C:\Projects\HomeTrax\HomeTrax.BLL\bin\Debug\HomeTrax.BLL.pdb
+C:\Projects\HomeTrax\HomeTrax.BLL\obj\Debug\HomeTrax.BLL.dll
+C:\Projects\HomeTrax\HomeTrax.BLL\obj\Debug\HomeTrax.BLL.pdb

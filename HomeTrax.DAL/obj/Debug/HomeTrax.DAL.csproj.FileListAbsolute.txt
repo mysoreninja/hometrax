@@ -1,0 +1,4 @@
+C:\Projects\HomeTrax\HomeTrax.DAL\bin\Debug\HomeTrax.DAL.dll
+C:\Projects\HomeTrax\HomeTrax.DAL\bin\Debug\HomeTrax.DAL.pdb
+C:\Projects\HomeTrax\HomeTrax.DAL\obj\Debug\HomeTrax.DAL.dll
+C:\Projects\HomeTrax\HomeTrax.DAL\obj\Debug\HomeTrax.DAL.pdb
