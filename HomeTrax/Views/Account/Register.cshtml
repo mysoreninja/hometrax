@@ -9,6 +9,7 @@
 </p>
 
 @using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
     @Html.ValidationSummary()
 
     <ul data-role="listview" data-inset="true">
@@ -17,11 +18,6 @@
         <li data-role="fieldcontain">
             @Html.LabelFor(m => m.UserName)
             @Html.TextBoxFor(m => m.UserName)            
-        </li>
-
-        <li data-role="fieldcontain">
-            @Html.LabelFor(m => m.Email)
-            @Html.TextBoxFor(m => m.Email)            
         </li>
 
         <li data-role="fieldcontain">
@@ -38,6 +34,10 @@
             <input type="submit" value="Register" />
         </li>
     </ul>
+}
+
+@section BeforeJqueryMobile {
+    @Scripts.Render("~/scripts/disable-ajax.js")
 }
 
 @section Scripts {

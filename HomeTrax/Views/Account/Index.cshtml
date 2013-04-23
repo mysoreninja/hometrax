@@ -17,3 +17,8 @@
     <li>@Html.ActionLink("Change password", "ChangePassword")</li>
     <li>@Html.ActionLink("Log off", "LogOff")</li>
 </ul>
+
+
+@section BeforeJqueryMobile {
+    @Scripts.Render("~/scripts/disable-ajax.js")
+}

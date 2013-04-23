@@ -18,6 +18,14 @@ namespace HomeTrax.Controllers
     public class AccountController : Controller
     {
         //
+        // GET/Index
+
+        public ActionResult Index()
+        {
+            return View();
+        }
+
+        //
         // GET: /Account/Login
 
         [AllowAnonymous]

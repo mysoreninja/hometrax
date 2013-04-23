@@ -14,6 +14,7 @@
 </p>
 
 @using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
     @Html.ValidationSummary()
 
     <ul data-role="listview" data-inset="true">
