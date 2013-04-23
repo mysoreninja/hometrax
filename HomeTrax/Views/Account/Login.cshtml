@@ -40,6 +40,14 @@
     </ul>
 }
 
+<section class="social" id="socialLoginForm">
+  @Html.Action("ExternalLoginsList", new { ReturnUrl = ViewBag.ReturnUrl })
+</section>
+
+@section BeforeJqueryMobile {
+    @Scripts.Render("~/scripts/disable-ajax.js")
+}
+
 @section Scripts {
-    @Scripts.Render("~/bundles/jqueryval")
+  @Scripts.Render("~/bundles/jqueryval")
 }
