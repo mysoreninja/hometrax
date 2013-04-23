@@ -2,3 +2,15 @@ C:\Projects\HomeTrax\HomeTrax.DAL\bin\Debug\HomeTrax.DAL.dll
 C:\Projects\HomeTrax\HomeTrax.DAL\bin\Debug\HomeTrax.DAL.pdb
 C:\Projects\HomeTrax\HomeTrax.DAL\obj\Debug\HomeTrax.DAL.dll
 C:\Projects\HomeTrax\HomeTrax.DAL\obj\Debug\HomeTrax.DAL.pdb
+C:\Users\anthony\Documents\GitHub\hometrax\HomeTrax.DAL\bin\Debug\HomeTrax.DAL.dll
+C:\Users\anthony\Documents\GitHub\hometrax\HomeTrax.DAL\bin\Debug\HomeTrax.DAL.pdb
+C:\Users\anthony\Documents\GitHub\hometrax\HomeTrax.DAL\obj\Debug\HomeTrax.DAL.csprojResolveAssemblyReference.cache
+C:\Users\anthony\Documents\GitHub\hometrax\HomeTrax.DAL\obj\Debug\HomeTrax.DAL.dll
+C:\Users\anthony\Documents\GitHub\hometrax\HomeTrax.DAL\obj\Debug\HomeTrax.DAL.pdb
+C:\Users\anthony\Documents\GitHub\hometrax\HomeTrax.DAL\bin\Debug\HomeTrax.DAL.dll.config
+C:\Users\anthony\Documents\GitHub\hometrax\HomeTrax.DAL\bin\Debug\EntityFramework.dll
+C:\Users\anthony\Documents\GitHub\hometrax\HomeTrax.DAL\bin\Debug\HomeTrax.BLL.dll
+C:\Users\anthony\Documents\GitHub\hometrax\HomeTrax.DAL\bin\Debug\PagedList.dll
+C:\Users\anthony\Documents\GitHub\hometrax\HomeTrax.DAL\bin\Debug\HomeTrax.BLL.pdb
+C:\Users\anthony\Documents\GitHub\hometrax\HomeTrax.DAL\bin\Debug\EntityFramework.xml
+C:\Users\anthony\Documents\GitHub\hometrax\HomeTrax.DAL\bin\Debug\PagedList.xml

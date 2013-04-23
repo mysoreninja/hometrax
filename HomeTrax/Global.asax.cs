@@ -6,6 +6,7 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using HomeTrax.DAL;
 
 namespace HomeTrax
 {
@@ -16,6 +17,13 @@ namespace HomeTrax
     {
         protected void Application_Start()
         {
+            //Uncomment when in dev environment
+            System.Data.Entity.Database.SetInitializer(new DBInitializer());
+
+            //Uncomment when in test/stage/production
+            //Any DB changes needs to be scripted here
+            //System.Data.Entity.Database.SetInitializer<EFContext>(null);
+
             AreaRegistration.RegisterAllAreas();
 
             AuthConfig.RegisterAuth();

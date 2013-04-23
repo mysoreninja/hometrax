@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HomeTrax.DAL
+namespace HomeTrax.BLL.Interfaces
 {
-    public class Class1
+    public interface IPropertyRepository : IRepository<Property>
     {
     }
 }

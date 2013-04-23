@@ -275,6 +275,16 @@
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HomeTrax.BLL\HomeTrax.BLL.csproj">
+      <Project>{d41030dc-1f53-43f3-8d0e-ab911134ea05}</Project>
+      <Name>HomeTrax.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HomeTrax.DAL\HomeTrax.DAL.csproj">
+      <Project>{af581315-b891-46c9-8ff1-fbc1a29fb1e4}</Project>
+      <Name>HomeTrax.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

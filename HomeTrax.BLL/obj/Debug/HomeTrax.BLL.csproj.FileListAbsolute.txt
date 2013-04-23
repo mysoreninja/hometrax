@@ -2,3 +2,10 @@ C:\Projects\HomeTrax\HomeTrax.BLL\bin\Debug\HomeTrax.BLL.dll
 C:\Projects\HomeTrax\HomeTrax.BLL\bin\Debug\HomeTrax.BLL.pdb
 C:\Projects\HomeTrax\HomeTrax.BLL\obj\Debug\HomeTrax.BLL.dll
 C:\Projects\HomeTrax\HomeTrax.BLL\obj\Debug\HomeTrax.BLL.pdb
+C:\Users\anthony\Documents\GitHub\hometrax\HomeTrax.BLL\bin\Debug\HomeTrax.BLL.dll
+C:\Users\anthony\Documents\GitHub\hometrax\HomeTrax.BLL\bin\Debug\HomeTrax.BLL.pdb
+C:\Users\anthony\Documents\GitHub\hometrax\HomeTrax.BLL\obj\Debug\HomeTrax.BLL.csprojResolveAssemblyReference.cache
+C:\Users\anthony\Documents\GitHub\hometrax\HomeTrax.BLL\obj\Debug\HomeTrax.BLL.dll
+C:\Users\anthony\Documents\GitHub\hometrax\HomeTrax.BLL\obj\Debug\HomeTrax.BLL.pdb
+C:\Users\anthony\Documents\GitHub\hometrax\HomeTrax.BLL\bin\Debug\PagedList.dll
+C:\Users\anthony\Documents\GitHub\hometrax\HomeTrax.BLL\bin\Debug\PagedList.xml
