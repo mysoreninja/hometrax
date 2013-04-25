@@ -1,7 +1,13 @@
-﻿@if(Request.IsAuthenticated) 
+﻿@if (Request.IsAuthenticated)
 {
+    
+    <h1>@ViewBag.Title</h1>          
     @Html.ActionLink(User.Identity.Name, "Index", "Account", routeValues: null, htmlAttributes: new { data_icon = "gear" })
+    
+    @Html.ActionLink("Log Out", "Logoff", "Account", routeValues: null, htmlAttributes: new { @class = "postLink", data_icon = "arrow-r", area = "", data_ajax = "false" })
+   
 }
-else {
+else
+{
     @Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { data_icon = "gear" })
 }

@@ -26,3 +26,15 @@ C:\Users\Kiran\Documents\GitHub\hometrax\HomeTrax.DAL\bin\Debug\PagedList.xml
 C:\Users\Kiran\Documents\GitHub\hometrax\HomeTrax.DAL\obj\Debug\HomeTrax.DAL.csprojResolveAssemblyReference.cache
 C:\Users\Kiran\Documents\GitHub\hometrax\HomeTrax.DAL\obj\Debug\HomeTrax.DAL.dll
 C:\Users\Kiran\Documents\GitHub\hometrax\HomeTrax.DAL\obj\Debug\HomeTrax.DAL.pdb
+C:\Users\bhavs_000\Documents\GitHub\hometrax\HomeTrax.DAL\bin\Debug\HomeTrax.DAL.dll.config
+C:\Users\bhavs_000\Documents\GitHub\hometrax\HomeTrax.DAL\bin\Debug\HomeTrax.DAL.dll
+C:\Users\bhavs_000\Documents\GitHub\hometrax\HomeTrax.DAL\bin\Debug\HomeTrax.DAL.pdb
+C:\Users\bhavs_000\Documents\GitHub\hometrax\HomeTrax.DAL\bin\Debug\EntityFramework.dll
+C:\Users\bhavs_000\Documents\GitHub\hometrax\HomeTrax.DAL\bin\Debug\HomeTrax.BLL.dll
+C:\Users\bhavs_000\Documents\GitHub\hometrax\HomeTrax.DAL\bin\Debug\PagedList.dll
+C:\Users\bhavs_000\Documents\GitHub\hometrax\HomeTrax.DAL\bin\Debug\HomeTrax.BLL.pdb
+C:\Users\bhavs_000\Documents\GitHub\hometrax\HomeTrax.DAL\bin\Debug\EntityFramework.xml
+C:\Users\bhavs_000\Documents\GitHub\hometrax\HomeTrax.DAL\bin\Debug\PagedList.xml
+C:\Users\bhavs_000\Documents\GitHub\hometrax\HomeTrax.DAL\obj\Debug\HomeTrax.DAL.csprojResolveAssemblyReference.cache
+C:\Users\bhavs_000\Documents\GitHub\hometrax\HomeTrax.DAL\obj\Debug\HomeTrax.DAL.dll
+C:\Users\bhavs_000\Documents\GitHub\hometrax\HomeTrax.DAL\obj\Debug\HomeTrax.DAL.pdb

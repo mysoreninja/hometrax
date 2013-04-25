@@ -16,3 +16,9 @@ C:\Users\Kiran\Documents\GitHub\hometrax\HomeTrax.BLL\bin\Debug\PagedList.xml
 C:\Users\Kiran\Documents\GitHub\hometrax\HomeTrax.BLL\obj\Debug\HomeTrax.BLL.csprojResolveAssemblyReference.cache
 C:\Users\Kiran\Documents\GitHub\hometrax\HomeTrax.BLL\obj\Debug\HomeTrax.BLL.dll
 C:\Users\Kiran\Documents\GitHub\hometrax\HomeTrax.BLL\obj\Debug\HomeTrax.BLL.pdb
+C:\Users\bhavs_000\Documents\GitHub\hometrax\HomeTrax.BLL\bin\Debug\HomeTrax.BLL.dll
+C:\Users\bhavs_000\Documents\GitHub\hometrax\HomeTrax.BLL\bin\Debug\HomeTrax.BLL.pdb
+C:\Users\bhavs_000\Documents\GitHub\hometrax\HomeTrax.BLL\bin\Debug\PagedList.dll
+C:\Users\bhavs_000\Documents\GitHub\hometrax\HomeTrax.BLL\bin\Debug\PagedList.xml
+C:\Users\bhavs_000\Documents\GitHub\hometrax\HomeTrax.BLL\obj\Debug\HomeTrax.BLL.dll
+C:\Users\bhavs_000\Documents\GitHub\hometrax\HomeTrax.BLL\obj\Debug\HomeTrax.BLL.pdb
