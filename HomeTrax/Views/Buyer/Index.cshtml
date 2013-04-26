@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Buyer Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Welcome @User.Identity.Name to Home Trax. </h2>
+
+<ul data-role="listview" data-inset="true">
+    <li data-role="list-divider">Select from below.</li>
+    <li>@Html.ActionLink("Properties", "Properties", "Buyer")</li>
+    <li>@Html.ActionLink("Agents", "Agents", "Buyer")</li>
+</ul>

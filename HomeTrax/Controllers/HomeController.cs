@@ -11,8 +11,12 @@ namespace HomeTrax.Controllers
         [Authorize]
         public ActionResult Index()
         {
-            ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
+            if (User.IsInRole("Agent"))
+                return RedirectToAction("Index", "Agent");
+            else if (User.IsInRole("Buyer"))
+                return RedirectToAction("Index", "Buyer");
 
+            ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
             return View();
         }
 

@@ -16,11 +16,11 @@ namespace HomeTrax.Models
         {
         }
 
-        public DbSet<UserProfile> UserProfiles { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 
-    [Table("UserProfile")]
-    public class UserProfile
+    [Table("Users")]
+    public class User
     {
         [Key]
         [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
