@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Web.WebPages.OAuth;
+using WebMatrix.WebData;
 
 namespace HomeTrax
 {
@@ -10,6 +11,8 @@ namespace HomeTrax
     {
         public static void RegisterAuth()
         {
+            //This is added to avoid multiple DBContext creation. 
+            WebSecurity.InitializeDatabaseConnection("DefaultConnection", "Users", "UserId", "UserName", autoCreateTables: true);
             // To let users of this site log in using their accounts from other sites such as Microsoft, Facebook, and Twitter,
             // you must update this site. For more information visit http://go.microsoft.com/fwlink/?LinkID=252166
 
