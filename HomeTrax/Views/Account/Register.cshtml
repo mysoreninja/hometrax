@@ -3,12 +3,18 @@
 @{
     ViewBag.Title = "Register";
 }
+<div data-role="header">
+    <h1>Tell Us About Yourself</h1>
+    @Html.ActionLink("Back", "Index", "Home", routeValues: null, htmlAttributes: new { data_icon = "arrow-l", data_rel = "back" })
 
+    @Html.ActionLink("Log In", "Login", "Account")
+</div>
 <p>
     Passwords must be at least 6 characters long.
 </p>
 
-@using (Html.BeginForm()) {
+@using (Html.BeginForm())
+{
     @Html.AntiForgeryToken()
     @Html.ValidationSummary()
 
@@ -17,19 +23,29 @@
 
         <li data-role="fieldcontain">
             @Html.LabelFor(m => m.UserName)
-            @Html.TextBoxFor(m => m.UserName)            
+            @Html.TextBoxFor(m => m.UserName)
         </li>
 
         <li data-role="fieldcontain">
             @Html.LabelFor(m => m.Password)
-            @Html.PasswordFor(m => m.Password)            
+            @Html.PasswordFor(m => m.Password)
         </li>
 
         <li data-role="fieldcontain">
             @Html.LabelFor(m => m.ConfirmPassword)
-            @Html.PasswordFor(m => m.ConfirmPassword)            
+            @Html.PasswordFor(m => m.ConfirmPassword)
         </li>
-
+        <li data-role="fieldcontain">
+        
+            <label for="select-role" class="select">Choose your role:</label>
+            <select name="select-role" id="select-role">
+                <option value="agent">I am an Agent</option>
+                <option value="buyer">I am a Buyer</option>
+                <option value="seller">I am a Seller</option>
+                
+            </select>
+        
+        </li>
         <li data-role="fieldcontain">
             <input type="submit" value="Register" />
         </li>

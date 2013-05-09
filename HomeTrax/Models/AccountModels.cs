@@ -87,6 +87,10 @@ namespace HomeTrax.Models
         [Display(Name = "Confirm password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+
+        [Required]
+        [Display(Name = "Choose your role:")]
+        public string UserRole { get; set; }
     }
 
     public class ExternalLogin

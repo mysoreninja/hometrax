@@ -1,17 +1,58 @@
-﻿@{
-    ViewBag.Title = "Contact";
+﻿@model HomeTrax.Models.ContactInfoModel
+
+@{
+    ViewBag.Title = "Contact Us";
 }
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+        $(".scroll").click(function (event) {
+            $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 500);
+        });
+    });
+    //$(function scrollTo(element) {
+    //    var target = $(element).offset();
+    //    $('body').animate({ scrollTop: target.top }, 'slow');
+    //});
+</script>
+<div data-role="header">
+    <h1>HomeTrax</h1>
+    @Html.ActionLink(" ", "Index", "Home", routeValues: null, htmlAttributes: new { data_icon = "home", data_iconpos = "notext" })
 
-<h2>Contact</h2>
+    @Html.ActionLink("Log In", "Login", "Account")
+</div>
+<div id="contact_links" style="text-align: center">
+    <a href="#phone" class="scroll">
+        <img src="~/Icons/phone.png" width="52" height="52" /></a>
+    <a href="#email" class="scroll">
+        <img src="~/Icons/email.png" width="52" height="52" /></a>
+</div>
+<hr />
+<div id="details" style="text-align: center">
+    <div id="phone">
+        <h3>Phone</h3>
+        <span>425.555.0100</span>
 
-<h3>Phone</h3>
-<span>425.555.0100</span>
+    </div>
+    <hr />
 
-<h3>Email</h3>
-<span><a href="mailto:General@example.com">General@example.com</a></span>
-
-<ul data-role="listview" data-inset="true">
-    <li data-role="list-divider">Navigation</li>
-    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-    <li>@Html.ActionLink("About", "About", "Home")</li>
-</ul>
+    <div id="email">
+        <h3>Email</h3>
+        @using (Html.BeginForm("SendEmail", "Home"))
+        {
+            
+            @Html.ValidationSummary()
+@*<input type="text" id="name" name="name" required placeholder="Your Name" />*@
+            
+                @Html.TextBoxFor(m => m.Name, new { placeholder="Your Name"})
+                @Html.TextBoxFor(m => m.Email, new { placeholder="Your Email Address"})
+                @Html.TextAreaFor(m => m.Message, new { placeholder="Your Message"})
+            
+@*<input type="email" id="toEmail" name="toEmail" placeholder="Your email address" required />
+            <textarea id="message" name="message" rows="10" placeholder="Your message must be greater than 20 charcters"
+                required data-minlength="20"></textarea>*@
+            <input type="submit" id="sendEmail" value="Send Email" />
+        }
+    </div>
+</div>
