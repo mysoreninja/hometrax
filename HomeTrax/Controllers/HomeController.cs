@@ -35,35 +35,35 @@ namespace HomeTrax.Controllers
             return View();
         }
 
-        [HttpPost]
+        //[HttpPost]
         //[ValidateAntiForgeryToken]
         //public ActionResult SendEmail(string name, string toEmail, string message)
-        public ActionResult SendEmail(ContactInfoModel c)
-        {
-            if (ModelState.IsValid)
-            {
-                string email = "test@gmail.com";
-                string password = "test";
+        //public ActionResult SendEmail(ContactInfoModel c)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        string email = "test@gmail.com";
+        //        string password = "test";
 
-                var loginInfo = new NetworkCredential(email, password);
-                var mail = new MailMessage();
-                SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com", 587);
+        //        var loginInfo = new NetworkCredential(email, password);
+        //        var mail = new MailMessage();
+        //        SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com", 587);
 
-                mail.From = new MailAddress("test@gmail.com");
-                mail.To.Add(c.Email);
-                mail.Subject = "Email From HomeTrax User: " + c.Name;
-                mail.Body = c.Message;
-                mail.IsBodyHtml = true;
+        //        mail.From = new MailAddress("test@gmail.com");
+        //        mail.To.Add(c.Email);
+        //        mail.Subject = "Email From HomeTrax User: " + c.Name;
+        //        mail.Body = c.Message;
+        //        mail.IsBodyHtml = true;
 
-                SmtpServer.EnableSsl = true;
-                SmtpServer.UseDefaultCredentials = false;
-                SmtpServer.Credentials = loginInfo;
-                SmtpServer.Send(mail);
-                return RedirectToAction("Contact", "Home");
-            }
+        //        SmtpServer.EnableSsl = true;
+        //        SmtpServer.UseDefaultCredentials = false;
+        //        SmtpServer.Credentials = loginInfo;
+        //        SmtpServer.Send(mail);
+        //        return RedirectToAction("Contact", "Home");
+        //    }
 
-            return View("Contact");
+        //    return View("Contact");
 
-        }
+        //}
     }
 }

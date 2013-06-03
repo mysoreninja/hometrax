@@ -71,12 +71,6 @@ C:\Projects\HomeTrax\HomeTrax\bin\DotNetOpenAuth.OAuth.Consumer.xml
 C:\Projects\HomeTrax\HomeTrax\bin\DotNetOpenAuth.OpenId.xml
 C:\Projects\HomeTrax\HomeTrax\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
 C:\Users\anthony\Documents\GitHub\hometrax\HomeTrax\bin\Microsoft.Web.WebPages.OAuth.dll
-C:\Users\anthony\Documents\GitHub\hometrax\HomeTrax\bin\DotNetOpenAuth.AspNet.xml
-C:\Users\anthony\Documents\GitHub\hometrax\HomeTrax\bin\DotNetOpenAuth.Core.xml
-C:\Users\anthony\Documents\GitHub\hometrax\HomeTrax\bin\DotNetOpenAuth.OAuth.xml
-C:\Users\anthony\Documents\GitHub\hometrax\HomeTrax\bin\DotNetOpenAuth.OAuth.Consumer.xml
-C:\Users\anthony\Documents\GitHub\hometrax\HomeTrax\bin\DotNetOpenAuth.OpenId.xml
-C:\Users\anthony\Documents\GitHub\hometrax\HomeTrax\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
 C:\Users\anthony\Documents\GitHub\hometrax\HomeTrax\bin\Microsoft.Web.WebPages.OAuth.xml
 C:\Users\anthony\Documents\GitHub\hometrax\HomeTrax\bin\HomeTrax.BLL.dll
 C:\Users\anthony\Documents\GitHub\hometrax\HomeTrax\bin\HomeTrax.DAL.dll
